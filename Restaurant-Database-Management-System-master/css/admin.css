@@ -1,0 +1,89 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main Container for form */
+.form {
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Welcome message styling */
+.form p:first-of-type {
+    font-size: 1.5rem;
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* General Paragraph Styling */
+.form p {
+    margin: 15px 0;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Links styled as buttons */
+.form a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect for links */
+.form a:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+/* Footer spacing */
+.form br {
+    line-height: 2;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+    
+    .form {
+        padding: 20px;
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .form p:first-of-type {
+        font-size: 1.3rem;
+    }
+
+    .form a {
+        font-size: 1rem;
+        padding: 10px 15px;
+    }
+}
+
